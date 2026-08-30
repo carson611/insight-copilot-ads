@@ -1,0 +1,20 @@
+﻿field_name,chinese_name,type,description
+date,日期,required/date,业务发生日期，用于趋势和周维度分析。
+week_label,周标签,optional/string,W-4、W-3、Last Week、This Week；缺失时自动按日期推断。
+channel,渠道,required/string,抖音、小红书、B站、搜索广告、自然流量等。
+device,设备,required/string,移动端、桌面端。
+region,地区,required/string,华东、华北、华南。
+product_category,商品品类,optional/string,美妆个护、数码配件、家居日用、食品饮料。
+ad_type,广告类型,optional/string,直播带货、达人种草、关键词广告等。
+campaign_type,活动类型,optional/string,日常投放、新品促销、会员日活动。
+impressions,曝光量,required/int,渠道或自然流量产生的曝光。
+clicks,点击量,required/int,曝光后产生的点击。
+signups,注册量,required/int,点击后完成注册的用户数。
+orders,订单量,required/int,注册后完成下单的订单数。
+revenue,收入,required/float,订单产生收入，单位：元。
+cost,成本,required/float,渠道投放或运营成本，单位：元。
+ctr,点击率,derived,clicks / impressions。
+signup_rate,注册转化率,derived,signups / clicks。
+order_rate,下单转化率,derived,orders / signups。
+roi,投入产出比,derived,revenue / cost。
+aov,客单价,derived,revenue / orders。
