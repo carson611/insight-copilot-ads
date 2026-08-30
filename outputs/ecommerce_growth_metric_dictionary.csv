@@ -1,0 +1,7 @@
+﻿metric,formula,explanation,demo_use
+CTR,clicks / impressions,曝光到点击的效率。,判断渠道素材或入口吸引力。
+注册转化率,signups / clicks,点击到注册的效率。,判断落地页和注册流程效果。
+下单转化率,orders / signups,注册到下单的效率。,回答“本周转化率为什么下降”。
+ROI,revenue / cost,收入与成本的比值。,回答“哪个渠道 ROI 最差”。
+AOV,revenue / orders,每笔订单平均收入。,生成业务周报和收入解释。
+环比变化,this_period / last_period - 1,本周相对于上周的变化。,用于异常波动分析。
